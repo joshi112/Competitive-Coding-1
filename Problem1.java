@@ -1,6 +1,16 @@
+// Time Complexity : O(logn)
+// Space Complexity : O(1)
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+
+// Your code here along with comments explaining your approach in three sentences only
+// Return mid-1 if the diff between the mid and index of the mid element is 2 and the diff between mid and mid-1 element to be 2
+// If not, find in the left half if diff between mid and index of mid element is 2 ,
+// else find in the right half if the diff between mid and index of the mid element is 1
+
+
 public class FindMissingNumber {
-
-
     public int findMissingNum(int[] a){
         int low = 0;
         int high = a.length-1;

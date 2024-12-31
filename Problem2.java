@@ -1,4 +1,14 @@
 
+// Time Complexity : O()
+// Space Complexity : O(1)
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No, followed the approach as discussed in class
+
+
+// Your code here along with comments explaining your approach in three sentences only
+// Followed the binary search approach by calculating the row and column of the mid element using divide and mod operations
+
+
 public class MinHeap {
     int a[];
     public MinHeap(int[] a){
